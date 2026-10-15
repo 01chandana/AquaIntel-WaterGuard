@@ -1,0 +1,43 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Logs
+*.log
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# AquaIntel local database and backups
+/backend/*.db
+/backend/*.sqlite
+/backend/*.sqlite3
+/backup/
+
+# Python local environment and cache
+/backend/.venv/
+/backend/__pycache__/
+/backend/**/__pycache__/
+
+# Frontend generated files
+/frontend/node_modules/
+/frontend/dist/
